@@ -24,10 +24,10 @@
 // | CTRL |  Y  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  -  | MOD2 |
 //                    | GUI | LWR | SPC |   | ROT | BKSP  | ENT |
                         bindings = <
-   &kp TAB    &kp Q  &kp W     &kp E     &kp R  &kp T       &kp Z   &kp U    &kp I     &kp O   &kp P    &kp BSPC
-   &kp LSHFT  &kp A  &kp S     &kp D     &kp F  &kp G       &kp H   &kp J    &kp K     &kp L   &kp B    &kp NUHS
-   &kp LCTRL  &kp Y  &kp X     &kp C     &kp V  &kp B       &kp N   &kp M    &kp COMM  &kp DOT &kp SLSH &mo 2
-                               &kp LGUI  &mo 1  &kp SPACE   &kp RET &kp BSPC &kp RALT
+   &kp TAB    &kp Q  &kp W     &kp E     &kp R  &kp T       &kp Z   &kp U    &kp I      &kp O   &kp P     &kp BSPC
+   &kp LSHFT  &kp A  &kp S     &kp D     &kp F  &kp G       &kp H   &kp J    &kp K      &kp L   &kp B     &kp NUHS
+   &kp LCTRL  &kp Y  &kp X     &kp C     &kp V  &kp B       &kp N   &kp M    &kp COMMA  &kp DOT &kp SLASH &mo 2
+                               &kp LGUI  &mo 1  &kp SPACE   &trans  &kp BSPC &kp RET
                         >;
                 };
                 
@@ -40,7 +40,7 @@
                         bindings = <
    &kp ESC    &kp 1     &kp 2     &kp 3   &kp 4   &kp 5     &kp 6     &kp 7     &kp 8     &kp 9   &kp 0   &kp BSPC
    &bt LSHFT  &trans    &trans    &trans  &trans  &trans    &trans    &kp UP    &trans    &tran   &trans  &trans
-   &kp LCTRL  &kp LABK  &kp RABK  &trans  &trans  &trans    &kp LEFT  &kp DOWN  &kp RIGHT &trans  &trans  &mo 3
+   &kp LCTRL  &kp LT    &kp GT    &trans  &trans  &trans    &kp LEFT  &kp DOWN  &kp RIGHT &trans  &trans  &mo 3
                                   &trans  &trans  &trans    &trans    &trans    &trans
                         >;
                 };
@@ -52,10 +52,10 @@
 // | CTRL |  |  |     |     |     |     |   |     |     |  {  |  }  |     |      |
 //                    |     |     |     |   |     |     |     |
                         bindings = <
-    &kp CIRC   &kp EXLM  &kp AT  &kp HASH  &kp DLR  &kp PERC    &kp AMPR  &kp SLSH  &kp LPAR  &kp RPAR  &kp QUES  &kp BSPC
-    &kp LSHFT  &trans    &trans  &trans    &trans   &trans      &trans    &kp BSLS  &kp LBRC  &kp RBRC  &kp B     &kp TILDE
-    &kp LCTRL  &kp PIPE  &trans  &trans    &trans   &trans      &trans    &trans    &kp LCBR  &kp RCBR  &trans    &trans
-                                 &trans    &trans   &trans      &trans    &trans    &trans
+    &kp CARET  &kp EXCL  &kp DQT  &kp DLLR  &kp DLLR  &kp PRCNT    &kp AMPS  &kp FSLH  &kp LPAR  &kp RPAR  &kp QMARK  &kp BSPC
+    &kp LSHFT  &trans    &trans   &trans    &trans    &trans       &trans    &kp BSLH  &kp LBKT  &kp RBKT  &kp B      &kp TILDE
+    &kp LCTRL  &kp PIPE  &trans   &trans    &trans    &trans       &trans    &trans    &kp LBRC  &kp RBRC  &trans     &trans
+                                  &trans    &trans    &trans       &trans    &trans    &trans
 
                         >;
                 };
