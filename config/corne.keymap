@@ -30,6 +30,7 @@
                           &kp LGUI  &mo 1 &kp SPACE   &kp RET &kp BSPC &kp RALT
                         >;
                 };
+                
                 LAYER1 {
 // -----------------------------------------------------------------------------------------
 // |  ESC |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
@@ -51,8 +52,8 @@
 // | CTRL |  |  |     |     |     |     |   |     |     |  {  |  }  |     |      |
 //                    |     |     |     |   |     |     |     |
                         bindings = <
-    &kp CIRC   &kp EXLM  &kp AT  &kp HASH  &kp DLR  &kp PERC    &kp AMPR  &kp SLSH  &kp LPRN  &kp RPRN  &kp QUES  &kp BSPC
-    &kp LSHFT  &trans    &trans  &trans    &trans   &trans      &trans    &kp BSLS  &kp LBRC  &kp RBRC  &kp B     &kp TILD
+    &kp CIRC   &kp EXLM  &kp AT  &kp HASH  &kp DLR  &kp PERC    &kp AMPR  &kp SLSH  &kp LPAR  &kp RPAR  &kp QUES  &kp BSPC
+    &kp LSHFT  &trans    &trans  &trans    &trans   &trans      &trans    &kp BSLS  &kp LBRC  &kp RBRC  &kp B     &kp TILDE
     &kp LCTRL  &kp PIPE  &trans  &trans    &trans   &trans      &trans    &trans    &kp LCBR  &kp RCBR  &trans    &trans
                                  &trans    &trans   &trans      &trans    &trans    &trans
 
