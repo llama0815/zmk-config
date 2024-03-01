@@ -38,9 +38,9 @@
 // | CTRL |  <  |  >  |     |     |     |   | LFT | DWN | RGT |     |     | MOD3 |
 //                    |     |     |     |   | ROT |     |     |
                         bindings = <
-   &kp ESC    &kp 1     &kp 2     &kp 3   &kp 4   &kp 5     &kp 6     &kp 7     &kp 8     &kp 9   &kp 0   &kp BSPC
-   &bt LSHFT  &trans    &trans    &trans  &trans  &trans    &trans    &kp UP    &trans    &tran   &trans  &trans
-   &kp LCTRL  &kp LT    &kp GT    &trans  &trans  &trans    &kp LEFT  &kp DOWN  &kp RIGHT &trans  &trans  &mo 3
+   &kp ESC    &kp 1     &kp 2     &kp 3   &kp 4   &kp 5     &kp 6     &kp 7     &kp 8     &kp 9    &kp 0   &kp BSPC
+   &bt LSHFT  &trans    &trans    &trans  &trans  &trans    &trans    &kp UP    &trans    &trans   &trans  &trans
+   &kp LCTRL  &kp LT    &kp GT    &trans  &trans  &trans    &kp LEFT  &kp DOWN  &kp RIGHT &trans   &trans  &mo 3
                                   &trans  &trans  &trans    &trans    &trans    &trans
                         >;
                 };
