@@ -28,7 +28,7 @@
 &kp TAB    &kp Q  &kp W  &kp E     &kp R    &kp T        &kp Z  &kp U     &kp I      &kp O    &kp P      &kp BSPC
 &kp LSHFT  &kp A  &kp S  &kp D     &kp F    &kp G        &kp H  &kp J     &kp K      &kp L    &kp DE_SZ  &kp HASH
 &kp LCTRL  &kp Y  &kp X  &kp C     &kp V    &kp B        &kp N  &kp M     &kp COMMA  &kp DOT  &kp SLASH  &mo LA2
-                         &kp LGUI  &mo LA1  &kp SPACE    &none  &kp BSPC  &kp RET
+                         &kp LGUI  &mo LA1  &kp SPACE    &kp A  &kp BSPC  &kp RET
             >;
         };
 
@@ -58,10 +58,10 @@
 &kp DE_CARET  &kp EXCL  &kp DE_DQT  &kp DE_SECT  &kp DLLR  &kp DE_PRCNT    &kp DE_AMPS  &kp DE_FSLH  &kp DE_LPAR  &kp DE_RPAR  &kp DE_QMARK  &kp BSPC
 &kp LSHFT  &kp DE_ACUTE     &kp DE_GRAVE    &none      &none     &none        &none     &kp DE_BSLH  &kp DE_LBKT  &kp DE_RBKT  &kp DE_CSZ      &kp DE_TILDE
 &kp LCTRL  &kp DE_PIPE  &none    &none      &none     &none        &none     &none     &kp DE_LBRC  &kp DE_RBRC  &none      &none
-                              &none      &none     &none        &kp A     &none     &none
+                              &none      &none     &none        &nones     &none     &none
             >;
 
-            sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
+            sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp LEFT RIGHT>;
         };
     };
 };
