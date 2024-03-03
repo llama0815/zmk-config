@@ -8,10 +8,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-#define DEFAULT 0
-#define LA1     1
-#define LA2     2
-
 / {
         keymap {
                 compatible = "zmk,keymap";
@@ -23,10 +19,10 @@
 // | CTRL |  Y  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  -  | LA2  |
 //                    | GUI | LA1 | SPC |   | ROT | BKSP  | ENT |
                         bindings = <
-   &kp TAB    &kp Q  &kp W     &kp E     &kp R    &kp T       &kp Z   &kp U    &kp I      &kp O   &kp P     &kp BSPC
-   &kp LSHFT  &kp A  &kp S     &kp D     &kp F    &kp G       &kp H   &kp J    &kp K      &kp L   &kp B     &kp NUHS
-   &kp LCTRL  &kp Y  &kp X     &kp C     &kp V    &kp B       &kp N   &kp M    &kp COMMA  &kp DOT &kp SLASH &mo LA2
-                               &kp LGUI  &mo LA1  &kp SPACE   &trans  &kp BSPC &kp RET
+   &kp TAB    &kp Q  &kp W     &kp E     &kp R  &kp T       &kp Z   &kp U    &kp I      &kp O   &kp P     &kp BSPC
+   &kp LSHFT  &kp A  &kp S     &kp D     &kp F  &kp G       &kp H   &kp J    &kp K      &kp L   &kp B     &kp NUHS
+   &kp LCTRL  &kp Y  &kp X     &kp C     &kp V  &kp B       &kp N   &kp M    &kp COMMA  &kp DOT &kp SLASH &mo 2
+                               &kp LGUI  &mo 1  &kp SPACE   &trans  &kp BSPC &kp RET
                         >;
                 };
                 
@@ -39,7 +35,7 @@
                         bindings = <
    &kp ESC    &kp 1     &kp 2     &kp 3   &kp 4   &kp 5     &kp 6     &kp 7     &kp 8     &kp 9    &kp 0   &kp BSPC
    &bt LSHFT  &trans    &trans    &trans  &trans  &trans    &trans    &kp UP    &trans    &trans   &trans  &trans
-   &kp LCTRL  &kp LT    &kp GT    &trans  &trans  &trans    &kp LEFT  &kp DOWN  &kp RIGHT &trans   &trans  &mo 3
+   &kp LCTRL  &kp LT    &kp GT    &trans  &trans  &trans    &kp LEFT  &kp DOWN  &kp RIGHT &trans   &trans  &trans
                                   &trans  &trans  &trans    &trans    &trans    &trans
                         >;
                 };
