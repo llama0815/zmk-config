@@ -48,7 +48,7 @@
 //                                  |          |          |          |   |          | BKSP     | ENT      |
                                       &none      &none      &none          &none      &kp BSPC   &kp RET
 //                                  ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
-               >;ii-opipopi
+               >;
                sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp UP DOWN>;
           };
 
