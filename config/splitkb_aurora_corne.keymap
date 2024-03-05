@@ -39,17 +39,17 @@
 // | ESC      | 1        | 2        | 3        | 4        | 5        |   | 6        | 7        | 8        | 9        | 0        | BKSP     |
      &kp ESC    &kp N1     &kp N2     &kp N3     &kp N4     &kp N5         &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &kp BSPC
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
-// | SHFT     | @        |          | €        |          |          |   |          | UP       | Ä        | Ö        | Ü        | '        |
-     &kp LSHFT  &kp DE_AT &none       &kp DE_EUR &none      &none         &none       &kp UP     &kp DE_AE  &kp DE_OE  &kp DE_UE  &kp DE_SQT
+// | SHFT     | @        |          | €        |          |          |   |          |          | UP       | Ö        | Ü        | '        |
+     &kp LSHFT  &kp DE_AT &none       &kp DE_EUR &none      &none         &none       &none      &kp UP     &kp DE_OE  &kp DE_UE  &kp DE_SQT
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
-// | CTRL     | <        | >        |          |          |          |   | LFT      | DWN      | RGT      | Ö        | Ä        | LA3      |
-     &kp LCTRL  &kp DE_LT  &kp DE_GT  &none      &none      &none          &kp LEFT   &kp DOWN   &kp RIGHT  &kp DE_OE  &kp DE_AE  &none
+// | CTRL     | <        | >        |          |          |          |   |          | LFT      | DWN      | RGT      | Ä        | LA3      |
+     &kp LCTRL  &kp DE_LT  &kp DE_GT  &none      &none      &none          &none      &kp LEFT   &kp DOWN   &kp RIGHT E&kp DE_AE  &none
 // ╰──────────┬──────────┬──────────┬──────────┬──────────┬──────────┤   ├──────────┬──────────┬──────────┬──────────┬──────────┬──────────╯
 //                                  |          |          |          |   |          | BKSP     | ENT      |
                                       &none      &none      &none          &none      &kp BSPC   &kp RET
 //                                  ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
-               >;
-               sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+               >;ii-opipopi
+               sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp UP DOWN>;
           };
 
           layer_2 {
@@ -68,6 +68,7 @@
                                       &none      &none     &none           &none      &none      &none
 //                                  ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
                >;
+
                sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
           };
      };
