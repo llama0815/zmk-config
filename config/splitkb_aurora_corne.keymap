@@ -43,7 +43,7 @@
      &kp LSHFT  &kp DE_AT &none       &kp DE_EUR &none      &none         &none       &none      &kp UP     &kp DE_OE  &kp DE_UE  &kp DE_SQT
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
 // | CTRL     | <        | >        |          |          |          |   |          | LFT      | DWN      | RGT      | Ä        | LA3      |
-     &kp LCTRL  &kp DE_LT  &kp DE_GT  &none      &none      &none          &none      &kp LEFT   &kp DOWN   &kp RIGHT E&kp DE_AE  &none
+     &kp LCTRL  &kp DE_LT  &kp DE_GT  &none      &none      &none          &none      &kp LEFT   &kp DOWN   &kp RIGHT  &kp DE_AE  &none
 // ╰──────────┬──────────┬──────────┬──────────┬──────────┬──────────┤   ├──────────┬──────────┬──────────┬──────────┬──────────┬──────────╯
 //                                  |          |          |          |   |          | BKSP     | ENT      |
                                       &none      &none      &none          &none      &kp BSPC   &kp RET
@@ -68,7 +68,6 @@
                                       &none      &none     &none           &none      &none      &none
 //                                  ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
                >;
-
                sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
           };
      };
